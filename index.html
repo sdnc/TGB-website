@@ -1,9 +1,9 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Sep 30 2021 02:47:37 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Oct 05 2021 03:37:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6081409c318d23d82908b920" data-wf-site="6081409c318d23a71608b91f">
 <head>
   <meta charset="utf-8">
-  <title>THEgiantbean</title>
+  <title>TheGiantBean</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -21,11 +21,11 @@
   <div data-collapse="medium" data-animation="over-right" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
     <div class="container w-container">
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="the-gb-menu.html" class="navbar-link w-nav-link"><span class="text-span">Menu</span></a>
-        <a href="gb-catering.html" class="navbar-link w-nav-link"><span class="text-span-2">CATERING</span></a>
-        <a href="mailto:hello@thegiantbean.com.au?subject=Hey%20there%20Giant%20Bean!" class="navbar-link w-nav-link"><span>CONTACT</span></a>
+        <a href="the-gb-menu.html" data-w-id="053867c8-123a-83dc-ef55-fc0c06d15086" class="navbar-link w-nav-link"><span class="text-span">Menu</span></a>
+        <a href="gb-catering.html" data-w-id="053867c8-123a-83dc-ef55-fc0c06d15089" class="navbar-link w-nav-link"><span class="text-span-2">CATERING</span></a>
+        <a href="mailto:hello@thegiantbean.com.au?subject=Hello%20there%20Giant%20Bean!" data-w-id="053867c8-123a-83dc-ef55-fc0c06d1508c" class="navbar-link w-nav-link"><span>CONTACT</span></a>
       </nav>
-      <a href="index.html" aria-current="page" class="brand-2 w-nav-brand w--current"><img src="images/logo-white-01.png" loading="eager" sizes="(max-width: 479px) 38vw, (max-width: 767px) 29vw, (max-width: 991px) 231.453125px, 250.65625px" srcset="images/logo-white-01-p-500.png 500w, images/logo-white-01-p-800.png 800w, images/logo-white-01-p-1080.png 1080w, images/logo-white-01-p-1600.png 1600w, images/logo-white-01-p-2000.png 2000w, images/logo-white-01-p-2600.png 2600w, images/logo-white-01.png 4724w" alt="" class="image"></a>
+      <a href="index.html" aria-current="page" class="brand-2 w-nav-brand w--current"><img src="images/logo-white-01.png" loading="eager" sizes="(max-width: 479px) 38vw, (max-width: 767px) 28vw, (max-width: 991px) 224.796875px, 250.65625px" srcset="images/logo-white-01-p-500.png 500w, images/logo-white-01-p-800.png 800w, images/logo-white-01-p-1080.png 1080w, images/logo-white-01-p-1600.png 1600w, images/logo-white-01-p-2000.png 2000w, images/logo-white-01-p-2600.png 2600w, images/logo-white-01.png 4724w" alt="" class="image"></a>
       <div class="socialmedia-container">
         <div class="columns-3 w-row">
           <div class="column-12 w-col w-col-6">
@@ -42,6 +42,51 @@
     </div>
   </div>
   <div class="mainpage-section wf-section">
+    <div style="display:block" class="reservationform w-container">
+      <div class="text-block-16 w-clearfix">
+        <a href="#"><strong data-w-id="8a673296-c3b9-0829-c415-25047b51521d" class="bold-text-2">✕</strong></a>
+      </div>
+      <h1 class="heading-7">Reserve a table</h1>
+      <div class="reservations_form w-embed">
+        <body>
+          <form action="https://formsubmit.co/dza.sara@gmail.com" method="POST">
+            <label for="name">Full name:</label><br>
+            <input type="text" id="name" name="name" required=""><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone number:</label><br>
+            <input type="number" id="number" name="number" required=""><br>
+            <label for="guests"># of guests:</label><br>
+            <input type="number" id="guests" name="guests" required=""><br>
+            <label for="datetime">Date & Time:</label><br>
+            <input type="datetime-local" id="datetime" name="datetime" required=""><br>
+            <label for="request">Special Requests:</label><br>
+            <input type="text" id="request" name="request"><br>
+            <input type="submit" value="Submit" id="submitbutton">
+          </form>
+        </body>
+        <style>
+    form 
+    {
+        margin: auto;
+        text-align: center;
+    }
+    input 
+    {
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+    #submitbutton 
+    {
+        color: white;
+        background-color: #1e3932;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border-radius: 10px;
+    }
+</style>
+      </div>
+    </div>
     <div class="welcome-container w-container">
       <div>
         <h1 class="heading">Welcome to <br>the Giant Bean Café</h1>
@@ -111,9 +156,6 @@
           <div class="text-block-4">We are conveniently located near Marrickville &amp; Sydenham train station and bus stops, only 10 minutes from the Sydney CBD. Street parking is available close by.</div>
           <div data-enable-scroll="true" data-enable-touch="true" data-widget-latlng="" data-widget-tooltip="" data-widget-style="roadmap" data-widget-zoom="12" class="map-2 w-widget w-widget-map"></div>
         </div>
-        <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcj4WQQuBQmzbBJ6zbK_IclPUzSXY6eNE&callback=initMap">
-</script>
         <div class="column-9 w-col w-col-6">
           <h1 class="heading-4">Opening Hours</h1>
           <div class="text-block-7"><span><em>Monday to Friday<br></em><strong>7:30 am - 3 pm</strong><br></span><br><em>Saturday &amp; Sunday<br></em><strong>8 am - 3 pm</strong></div>
@@ -144,7 +186,7 @@
     <div class="gallery-container">
       <div class="columns-2 w-row">
         <div class="gallery-image w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-tiny-stack">
-          <div class="div-block"><img src="images/51844858_545973922579060_7646539103576134388_n.jpg" loading="lazy" style="display:inline-block" data-w-id="310e0a56-0228-d889-f505-be37466dce86" srcset="images/51844858_545973922579060_7646539103576134388_n-p-500.jpeg 500w, images/51844858_545973922579060_7646539103576134388_n.jpg 640w" sizes="100vw" alt="Picture of homemade banana bread
+          <div class="div-block"><img src="images/51844858_545973922579060_7646539103576134388_n.jpg" loading="lazy" style="display:inline-block" data-w-id="310e0a56-0228-d889-f505-be37466dce86" srcset="images/51844858_545973922579060_7646539103576134388_n-p-500.jpeg 500w, images/51844858_545973922579060_7646539103576134388_n.jpg 640w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 33vw, 17vw" alt="Picture of homemade banana bread
 " class="image-9"></div>
         </div>
         <div class="gallery-image w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-tiny-stack">
@@ -155,14 +197,14 @@
           <div class="div-block"></div><img src="images/50828080_504341873428817_2626175019426563562_n.jpg" loading="lazy" style="display:inline-block" data-w-id="b511f7aa-7d67-ae75-6ace-ef9b66f179d9" alt="Picture of the pancake breakfast" class="image-14">
         </div>
         <div class="gallery-image w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-tiny-stack">
-          <div class="div-block"></div><img src="images/breakfastburger.jpeg" loading="lazy" style="display:inline-block" data-w-id="aba3061d-a4de-ad66-01ee-2c266974fe2d" srcset="images/breakfastburger-p-500.jpeg 500w, images/breakfastburger-p-800.jpeg 800w, images/breakfastburger.jpeg 1080w" sizes="100vw" alt="Picture of the breakfast burger
+          <div class="div-block"></div><img src="images/breakfastburger.jpeg" loading="lazy" style="display:inline-block" data-w-id="aba3061d-a4de-ad66-01ee-2c266974fe2d" srcset="images/breakfastburger-p-500.jpeg 500w, images/breakfastburger-p-800.jpeg 800w, images/breakfastburger.jpeg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 33vw, (max-width: 6352px) 17vw, 1080px" alt="Picture of the breakfast burger
 " class="image-12">
         </div>
         <div class="gallery-image w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-tiny-stack">
-          <div class="div-block"></div><img src="images/51951565_573651599818373_5426593691408322525_n.jpg" loading="lazy" style="display:inline-block" data-w-id="aa841d85-f97a-27cc-237e-dd04ff5ac0a6" srcset="images/51951565_573651599818373_5426593691408322525_n-p-500.jpeg 500w, images/51951565_573651599818373_5426593691408322525_n.jpg 640w" sizes="100vw" alt="Picture of the coffee-making area" class="image-11">
+          <div class="div-block"></div><img src="images/51951565_573651599818373_5426593691408322525_n.jpg" loading="lazy" style="display:inline-block" data-w-id="aa841d85-f97a-27cc-237e-dd04ff5ac0a6" srcset="images/51951565_573651599818373_5426593691408322525_n-p-500.jpeg 500w, images/51951565_573651599818373_5426593691408322525_n.jpg 640w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 33vw, 17vw" alt="Picture of the coffee-making area" class="image-11">
         </div>
         <div class="gallery-image w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-tiny-stack">
-          <div class="div-block"></div><img src="images/benehash.jpeg" loading="lazy" data-w-id="bf315256-bd92-6556-4341-c5c6f3f3e55b" style="display:inline-block" srcset="images/benehash-p-500.jpeg 500w, images/benehash-p-800.jpeg 800w, images/benehash-p-1080.jpeg 1080w, images/benehash.jpeg 1089w" sizes="100vw" alt="Picture of the benedict hash breakfast" class="image-10">
+          <div class="div-block"></div><img src="images/benehash.jpeg" loading="lazy" data-w-id="bf315256-bd92-6556-4341-c5c6f3f3e55b" style="display:inline-block" srcset="images/benehash-p-500.jpeg 500w, images/benehash-p-800.jpeg 800w, images/benehash-p-1080.jpeg 1080w, images/benehash.jpeg 1089w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 991px) 33vw, (max-width: 6405px) 17vw, 1089px" alt="Picture of the benedict hash breakfast" class="image-10">
         </div>
       </div>
     </div>
