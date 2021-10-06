@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Oct 05 2021 03:37:52 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Oct 06 2021 04:24:55 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6081409c318d23d82908b920" data-wf-site="6081409c318d23a71608b91f">
 <head>
   <meta charset="utf-8">
@@ -42,29 +42,43 @@
     </div>
   </div>
   <div class="mainpage-section wf-section">
-    <div style="display:block" class="reservationform w-container">
+    <div class="welcome-container w-container">
+      <div>
+        <h1 class="heading">Welcome to <br>the Giant Bean Café</h1>
+      </div>
+      <div class="orderfood-container">
+        <div class="orderfood-button">
+          <a href="#" data-w-id="386ccf57-8037-54f4-e600-cc4c87c975e2" style="display:inline-block" class="order-food-button all-buttons w-button">RESERVE</a>
+        </div>
+        <div class="orderfood-button">
+          <a href="#" data-w-id="f6fb72be-1769-c3eb-a416-d6613b7963c9" style="display:inline-block" class="order-food-button all-buttons w-button">Delivery</a>
+        </div>
+        <a data-w-id="b49daf92-7d32-cbe0-312c-801616293a69" style="display:none" href="https://www.ubereats.com/au/store/the-giant-bean/ew07kHycSAiY3QD4XxQd6w" target="_blank" class="ubereats w-inline-block"></a>
+        <a data-w-id="073ec794-3ab5-3709-04ae-91ed418a2bd6" style="display:none" href="https://www.menulog.com.au/restaurants-the-giant-bean/menu" target="_blank" class="menulog w-inline-block"></a>
+      </div>
+    </div>
+    <div style="display:none" class="reservationform w-container">
       <div class="text-block-16 w-clearfix">
         <a href="#"><strong data-w-id="8a673296-c3b9-0829-c415-25047b51521d" class="bold-text-2">✕</strong></a>
       </div>
       <h1 class="heading-7">Reserve a table</h1>
       <div class="reservations_form w-embed">
-        <body>
-          <form action="https://formsubmit.co/dza.sara@gmail.com" method="POST">
-            <label for="name">Full name:</label><br>
-            <input type="text" id="name" name="name" required=""><br>
-            <label for="email">Email address:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="phone">Phone number:</label><br>
-            <input type="number" id="number" name="number" required=""><br>
-            <label for="guests"># of guests:</label><br>
-            <input type="number" id="guests" name="guests" required=""><br>
-            <label for="datetime">Date & Time:</label><br>
-            <input type="datetime-local" id="datetime" name="datetime" required=""><br>
-            <label for="request">Special Requests:</label><br>
-            <input type="text" id="request" name="request"><br>
-            <input type="submit" value="Submit" id="submitbutton">
-          </form>
-        </body>
+        <form action="https://formsubmit.co/dza.sara@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Reservation for The Giant Bean Café">
+          <label for="name">Full name:</label><br>
+          <input type="text" id="name" name="name" placeholder="John Doe" required=""><br>
+          <label for="email">Email address:</label><br>
+          <input type="email" id="email" name="email" placeholder="your@email.com"><br>
+          <label for="phone">Phone number:</label><br>
+          <input type="number" id="number" name="number" placeholder="+61 412 34 567" required=""><br>
+          <label for="guests"># of guests:</label><br>
+          <input type="number" id="guests" name="guests" required=""><br>
+          <label for="datetime">Date & Time:</label><br>
+          <input type="datetime-local" id="datetime" name="datetime" required=""><br>
+          <label for="request">Special Requests:</label><br>
+          <input type="text" id="requests" name="requests" style="padding:2em;"><br>
+          <input type="submit" value="Submit" id="submitbutton">
+        </form>
         <style>
     form 
     {
@@ -85,21 +99,6 @@
         border-radius: 10px;
     }
 </style>
-      </div>
-    </div>
-    <div class="welcome-container w-container">
-      <div>
-        <h1 class="heading">Welcome to <br>the Giant Bean Café</h1>
-      </div>
-      <div class="orderfood-container">
-        <div class="orderfood-button">
-          <a data-w-id="386ccf57-8037-54f4-e600-cc4c87c975e2" style="display:inline-block" href="#" class="order-food-button all-buttons w-button">RESERVE</a>
-        </div>
-        <div class="orderfood-button">
-          <a href="#" data-w-id="f6fb72be-1769-c3eb-a416-d6613b7963c9" style="display:inline-block" class="order-food-button all-buttons w-button">Delivery</a>
-        </div>
-        <a data-w-id="b49daf92-7d32-cbe0-312c-801616293a69" style="display:none" href="https://www.ubereats.com/au/store/the-giant-bean/ew07kHycSAiY3QD4XxQd6w" target="_blank" class="ubereats w-inline-block"></a>
-        <a data-w-id="073ec794-3ab5-3709-04ae-91ed418a2bd6" style="display:none" href="https://www.menulog.com.au/restaurants-the-giant-bean/menu" target="_blank" class="menulog w-inline-block"></a>
       </div>
     </div>
   </div>
