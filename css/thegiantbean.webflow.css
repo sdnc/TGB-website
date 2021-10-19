@@ -105,7 +105,7 @@ p {
   background-image: url('../images/messybackground.png'), url('../images/beautifulbeans.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: cover, cover;
-  background-attachment: scroll, scroll;
+  background-attachment: scroll, fixed;
   color: #fff;
 }
 
@@ -1106,7 +1106,10 @@ p {
 
 .footer-block-text.email-text {
   padding-top: 11px;
-  color: #1e3932;
+  color: #333;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .div-block-5 {
@@ -1424,6 +1427,10 @@ p {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.pdf-container {
+  max-width: 75%;
 }
 
 @media screen and (max-width: 991px) {
